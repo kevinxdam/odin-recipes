@@ -1,10 +1,22 @@
-* {
+*{
 
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     border-style:solid;
-    border-width: 10px;
+    border-width: 5px;
+    list-style-type: none;
+    box-sizing: border-box;
+ 
+}
 
+body {
+
+    background-color: rgb(211, 210, 210);
+    margin: 0px 250px;
+}
+
+h1 {
+    background-color: coral;
 }
 
 h1, p {
@@ -13,6 +25,37 @@ h1, p {
 
 }
 
+p {
+
+    background-color: rgba(128, 128, 128, 0.346);
+}
+
+h2 {
+
+    margin-bottom: -25px;
+}
+
+div {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li, a[href] {
+
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.684);
+    font-weight: bold;
+    font-style: uppercase;
+    text-align: left;
+    border-color: black;
+    color: rgba(0, 0, 255, 0.673);
+    
+}
+
+
 .image {
 
 
@@ -20,3 +63,22 @@ h1, p {
     place-items: center;
 
 }
+
+.text-centered {
+
+    text-align: center;
+
+}
+
+.blue-background {
+
+    background-color: rgba(0, 4, 255, 0.684);
+
+}
+
+.red-background li{
+
+    background-color: rgba(255, 0, 0, 0.684);
+    
+}
+
